@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    div.textContainer
+    input#messageBox(type="text")
+    button#send Send
+    div.nicknameSettings
+        input#nicknameBox(type="text")
+        button#nicknameButton Set Your Nickname
+
